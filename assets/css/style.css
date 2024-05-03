@@ -27,3 +27,27 @@ body {
     background-color: rgb(51, 51, 126);
     color: var(--gray-05);
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.image-logo {
+    height: 250px;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 360px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 200px;
+    right: 465px;
+}
