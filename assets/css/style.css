@@ -97,3 +97,24 @@ fieldset {
     background-color: #664297;
     border: 1px solid #f9f9f9;
   }
+
+  .alert {
+    font-size: 2rem;
+    background-color: var(--danger-background);
+    border: 3px solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.output {
+  color: white;
+  background-color: var(--gray-75);
+  border: 3px solid var(--gray-05);
+  font-size: 2.5rem;
+  width: 90%;
+  max-width: 500px;
+  min-height: 55px;
+  margin-top: 25px;
+  padding: 15px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
