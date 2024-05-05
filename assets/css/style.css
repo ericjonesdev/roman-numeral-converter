@@ -76,3 +76,24 @@ fieldset {
     font-weight: bold;
   }
   
+  input {
+    display: block;
+    font-size: 2.4rem;
+    width: 100%;
+    height: 60px;
+    margin: 10px auto;
+    padding: 6px 12px;
+    line-height: 1.4;
+    color: var(--gray-00);
+    border: 1px solid var(var(--gray-00));
+    background-color: var(--gray-90);
+  }
+
+  button {
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #664297;
+    border: 1px solid #f9f9f9;
+  }
