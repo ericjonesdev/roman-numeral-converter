@@ -53,7 +53,7 @@ form {
     color: var(--gray-00);
     margin: auto;
     padding: 15px auto;
-    border: 3px solid --gray-05;
+    border: 3px solid var(--gray-05);
     text-align: center;
     width: 100%;
     max-width: 500px;
